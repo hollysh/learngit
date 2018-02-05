@@ -6,4 +6,5 @@ if __name__ == '__main__':
                 if line[-1].encode(ascii) == 3:
                     fix_data.write(line)
                 else:
-                    fixdata.write(line[0:-1])
+                    fix_data.write(line[0:-1])
+                    for line in raw_data
