@@ -7,4 +7,5 @@ if __name__ == '__main__':
                     fix_data.write(line)
                 else:
                     fix_data.write(line[0:-1])
-                    for line in raw_data
+                    for line in raw_data:
+                        
